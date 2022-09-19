@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Hi, Meet Griffin    
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Griffin M. Mumu, Jr</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+  <P> Im a 
+  <a href="" style="text-decoration: none"  class="typewrite" data-period="2000" data-type='[ "Developer", "Programmer", "Designer", "Gamers" ]'>
+    <span class="wrap"></span>
+  </a>
+</P>
+        <a href="#contact" class="btn btn--pink rounded-3xl">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Rick And Morty</h3>
+              <p>
+                A website for find all character from rick and morty using API
+              </p>
+              <br>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>ReactJs</li>
+                <li>Boodstrap</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://imgriffin14.netlify.app/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/im-Starry/RickAndMorty" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Unklab Dine</h3>
+              <p>
+               a website created specifically for the klabat university cafeteria that serves to provide an assessment of the food, service, and environment in the cafeteria.
+              </p>
+              <br>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Laravel</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://unklabdine.web.app/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <br>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/piton.png" class="client__logo" alt="python" />
+          <img src="./images/react.png" class="client__logo" alt="react" />
+          <img src="./images/html.png" class="client__logo" alt="html" />
+          <img src="./images/css.png" class="client__logo" alt="css" />
+          <img src="./images/js.png" class="client__logo" alt="js" />
+          <img src="./images/cFam.png" class="client__logo" alt="c fam" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Hi, My name is Griffin Meidy Mumu, Jr. I was born and raised in Sonder on February 2, 2003. Now I live in Kolongan Atas, Sonder, Minahasa, North Sulawesi. 
+            </p>
+            <br>
+            <p>
+              In addition, a brief story about my study, I graduated from SMK Negeri 1 Sonder. Since I graduated from a vocational high school, I took a major course in multimedia. Now, I am a student at Universitas Klabat. Universitas Klabat itself is located in Airmadidi, North Minahasa, North Sulawesi. In Unklab, I am taking a major course which is Computer Science in Universitas Klabat. 
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn mt-10">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/round.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a fast-performing and user-friendly website to
+          represent your product or business? or looking for any kind of
+          consultation? or want to ask questions? or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via an email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:griffinmumu02@gmail.com" class="btn mt-10">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Made and developed by <a href="https://nisar.dev" class="link">Griffin</a>.
+      </p>
+      <!-- <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div> -->
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
